@@ -1,0 +1,99 @@
+.profile-header {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #002647;
+    padding: 10px;
+    border-radius: 8px;
+    color: #ffffff;
+}
+
+.profile-info h2 {
+    margin: 0;
+    font-size: 1.5em;
+}
+
+.profile-info p {
+    margin: 4px 0 0;
+    font-size: 0.9em;
+    color: #aeacac;
+}
+
+.profile-image {
+    display: flex;
+    align-items: center;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    border: 2px solid #ffffff;
+}
+
+.goal-progress {
+    text-align: center;
+    margin: 20px 0;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: #012E57;
+    color: #FFFFFF;
+}
+
+.progress-container {
+    position: relative;
+    width: 150px;
+    height: 75px;
+    margin: auto;
+}
+
+.progress-fill {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #FCB000;
+    border-radius: 100px 100px 0 0;
+    transform-origin: center bottom;
+    transition: transform 0.5s ease;
+}
+
+.goal-text {
+    margin-top: 80px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.goal-metrics {
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 14px;
+    color: #7D7D7D;
+}
+
+.contact-details {
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #2C2B2B;
+}
+
+.contact-details p {
+    margin: 8px 0;
+}
+
+.contact-details i {
+    margin-right: 8px;
+    color: #002647;
+}
+
+.medical-details {
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 20px;
+    color: #2C2B2B;
+}
+
+.medical-details .important {
+    font-weight: bold;
+    color: #012E57;
+}
